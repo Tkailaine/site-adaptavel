@@ -40,8 +40,12 @@ header{
     width: 250px;
     height: 100%;
     padding-top: 60px;
-    background-color: var(--azul-escuro);
+    background-color:var(--azul-royal);
     transition: left 0.3s;
+}
+
+#menu a{
+  color: white;
 }
 
 #menu.active{
@@ -185,9 +189,14 @@ header{
     width: 250px;
     height: 100%;
     padding-top: 60px;
-    background-color: var(--azul-escuro);
+      background-color:var(--azul-royal);
     transition: left 0.3s;
 }
+
+#menu a{
+  color: white;
+}
+
 
 #menu.active{
     left: 0;

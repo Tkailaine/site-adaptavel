@@ -20,10 +20,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--fonte-principal);
+    
 }
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 section{
@@ -192,7 +194,7 @@ strong,  li::marker{
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center;
+ 
   transform: scale(1.1);
   animation: zoomEffect 5s infinite alternate;
 }
@@ -206,6 +208,7 @@ strong,  li::marker{
       #08080744 100%
     ),
     url('imagens/bandeira.jpg');
+    background-position: 30% 50%;
 }
 
 .slide-2 .image {
@@ -215,7 +218,8 @@ strong,  li::marker{
       #554c402f 50%,
       #08080744 100%
     ),
-    url('imagens/bandeira3.jpg');
+    url('imagens/bandeira4.jpg');
+    background-position: 30% 50%;
 }
 
 .slide-3 .image {
@@ -225,7 +229,8 @@ strong,  li::marker{
       #554c402f 50%,
       #08080744 100%
     ),
-    url('imagens/bandeira4.jpg');
+    url('imagens/bandeira3.jpg');
+    background-position: center;
 }
 
 
@@ -474,6 +479,7 @@ strong,  li::marker{
       #08080788 100%
     ),
     url('imagens/bandeira2.jpg');
+    background-position: center;
 
     border-radius: 50px;
     margin: 80px auto;
