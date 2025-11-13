@@ -6,7 +6,7 @@
 :root{
     --azul-escuro:#003366;
     --dourado-metalico: #B69358;
-    --azul-royal: #0055A5;
+    --azul-royal: #554D40;
     --dourado-claro: #F5DEB3;
     --neutro: 	#2C2C2C;
     --off-white: #F9F9F9;
@@ -43,11 +43,11 @@ header{
     justify-content: center;
     align-items: center;
     z-index: 11;
-    background-image: linear-gradient(45deg, #011224, #184891,  #011224);
+    background-image: linear-gradient(45deg, #ffffff, #cdd0d4,  #78818b);
 }
 
 #logo-escritorio{
-    width: 200px;
+    width: 250px;
     position: absolute;
     left: 5%;
  }
@@ -58,6 +58,10 @@ header{
     gap: 40px;
     list-style: none;
     text-transform: uppercase;
+}
+
+#menu a{
+  color:#554D40;
 }
 
 #menu a:hover{
@@ -85,7 +89,7 @@ a{
 }
 
 h2{
-    color: var(--dourado-metalico);
+    color:#DAB255;
     font-weight: 700;
 }
 
@@ -160,7 +164,7 @@ strong,  li::marker{
 }
 
 .slider-container h1{
-  color: var(--dourado-metalico);
+  color: #DAB255;
   font-size: 3em;
 }
 
@@ -197,9 +201,9 @@ strong,  li::marker{
 .slide-1 .image {
   background-image: linear-gradient(
       0deg,
-      rgb(20, 34, 92) 0%,
-      rgba(8, 34, 87, 0.616) 50%,
-      rgb(15, 30, 55) 100%
+      #554c403b 0%,
+      #554c407c 50%,
+      #08080744 100%
     ),
     url('imagens/bandeira.jpg');
 }
@@ -207,9 +211,9 @@ strong,  li::marker{
 .slide-2 .image {
   background-image: linear-gradient(
       45deg,
-      rgba(20, 34, 92, 0.95) 0%,
-      rgba(8, 34, 87, 0.7) 50%,
-      rgba(15, 30, 55, 0.9) 100%
+       #554c401c 0%,
+      #554c402f 50%,
+      #08080744 100%
     ),
     url('imagens/bandeira3.jpg');
 }
@@ -217,9 +221,9 @@ strong,  li::marker{
 .slide-3 .image {
   background-image: linear-gradient(
       45deg,
-      rgba(20, 34, 92, 0.95) 0%,
-      rgba(8, 34, 87, 0.7) 50%,
-      rgba(15, 30, 55, 0.9) 100%
+       #554c401c 0%,
+      #554c402f 50%,
+      #08080744 100%
     ),
     url('imagens/bandeira4.jpg');
 }
@@ -306,13 +310,13 @@ strong,  li::marker{
 }
 
 .btn-saber-mais{
-  background-color: var(--dourado-metalico);
+  background-color: #DAB255;
   margin: 20px auto;
 }
 
 .btn-contato{
     position: absolute;
-    background-color: var(--azul-royal);
+    background-color:#DAB255;
     
 }
 
@@ -343,6 +347,7 @@ strong,  li::marker{
 #box-sobre h2{
   font-weight: 500;
   font-family: var(--fonte-destaque);
+ 
 }
 
 #box-sobre h3{
@@ -381,7 +386,7 @@ strong,  li::marker{
   left: 0;
   width: 100%;
   height: 3px;
-  background-color: #0d47a1;
+  background-color: #dab255;
   z-index: 1;
 }
 
@@ -394,7 +399,7 @@ strong,  li::marker{
 
 .icone-area {
   font-size: 2.5rem;
-  color: #0d47a1;
+  color: #dab255;
   background-color: #fdfdfc;
   padding: 0 10px;
   position: relative;
@@ -405,7 +410,7 @@ strong,  li::marker{
 .ponto-conexao {
   width: 10px;
   height: 10px;
-  background-color: #0d47a1;
+  background-color: #dab255;
   border-radius: 50%;
   margin: 0 auto 10px auto;
   position: relative;
@@ -416,7 +421,7 @@ strong,  li::marker{
 .ponto-tempo h3 {
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
-  color: #0d47a1;
+  color: #dab255;
 }
 
 .ponto-tempo p {
@@ -464,9 +469,9 @@ strong,  li::marker{
 #sessao-contato{
     background-image: linear-gradient(
       45deg,
-      rgba(20, 34, 92, 0.493) 0%,
-      rgba(8, 34, 87, 0.7) 50%,
-      rgba(15, 30, 55, 0.9) 100%
+      #554c4056 0%,
+      #554c406b 50%,
+      #08080788 100%
     ),
     url('imagens/bandeira2.jpg');
 
@@ -513,7 +518,7 @@ form textarea{
 
 form button{
     border-radius: 15px;
-    background-color: var(--azul-royal);
+    background-color:#DAB255;
     border: none;
     color: white;
     padding: 12px 0;
@@ -532,7 +537,7 @@ form button:hover{
 footer{
   position: relative;
   z-index: 2;
- background-image: linear-gradient(45deg, #011224, #042e6d,  #011224);
+ background-image: linear-gradient(45deg, #2e2d2d, #454546,  #2b2b2b);
   color: white;
   padding: 40px 0px;
   font-family: var(--fonte-destaque);
@@ -596,9 +601,9 @@ footer h3{
 /*SOBRE PÁGINA */
 /* Seção Hero */
 #sobre-hero {
-  background-image: url(imagens/bandeira5.png);
+  background-image: url(imagens/bandeira5.jpg);
   background-size: cover;
-  background-position: left;
+  background-position: 50% 55%;
   height: 60vh;
   position: relative;
   max-width: 100%;
@@ -626,6 +631,7 @@ footer h3{
   gap: 4em;
   text-align: justify;
   align-items: center;
+
 }
 
 .sobre-historia-texto {
@@ -634,28 +640,35 @@ footer h3{
 
 .sobre-historia-imagem {
   flex: 1;
+
 }
 
 .sobre-historia-imagem img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 15% 15% 0% 0%;
+ 
 }
 
 /* DIFERENCIAIS */
 #sobre-diferenciais {
   background-image: linear-gradient(
       0deg,
-      rgb(20, 34, 92) 0%,
-      rgba(8, 34, 87, 0.616) 50%,
-      rgb(15, 30, 55) 100%
+      #6e5b4198 0%,
+      #08080775 50%,
+      #080807b7 100%
     ),
     url('imagens/bandeira6.jpg');
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
   padding: 4rem 2rem;
   text-align: center;
   max-width: 100%;
+
+}
+
+#sobre-diferenciais i{
+  color: #DAB255;
 }
 
 .sobre-cartoes {
@@ -741,14 +754,14 @@ footer h3{
 }
 
 #container-atuacoes strong, #container-atuacoes  li::marker {
-  color: #B49465;
+  color: #DAB255;
 }
 
 
 #container-atuacoes h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 400;
-  color: #B49465;
+  font-weight: 500;
+  color: var(--azul-royal);
   font-size: 24px;
 
 }
@@ -782,15 +795,15 @@ aside ul li {
 }
 
 aside ul li a{
-  color: #003366;
+  color: var(--azul-royal);
 }
 
 aside ul li:hover {
-  border: 2px solid #B99E6B;
+  border: 2px solid #DAB255;
   background-color: rgba(185, 158, 107, 0.1); /* fundo leve com a mesma cor */
   box-shadow: 0 0 8px rgba(185, 158, 107, 0.3); /* sombra sutil */
   transform: translateX(5px); /* leve deslocamento lateral */
-  color: #B49465;
+  color: #DAB255;
 }
 
 
